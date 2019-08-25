@@ -1,0 +1,144 @@
+
+
+header{
+height: 100vh;
+background: url(img/baner1.jpg) no-repeat center center /cover;
+}
+
+.border1 {
+    width: 30%;
+    height: 120%;
+    margin-left: 35%;
+    border-width: 130px;
+    padding:2%;
+    border: 3px solid rgb(255, 255, 255);
+    margin-top: 10%;
+  }
+
+.border{
+width: 120%;
+
+border: 3px solid rgb(255, 255, 255);
+text-align: center;
+font-size: 25px;
+}
+
+
+.h2{
+ margin-top:5vh;
+}
+
+
+  /* navbar */
+  .nav-menu {
+    background: linear-gradient(rgb(252, 12, 12), rgba(199, 11, 11, 0.767));
+    padding: 30px;
+    transition: all .7s;
+    margin-right: 14%;
+    margin-left: 11%;
+    height:auto;
+
+   
+  }
+
+  .custom-navbar {
+    padding: 5px 30px;
+    background: linear-gradient(rgba(141, 4, 4, 0.6), rgba(245, 9, 9, 0.7));
+   
+  }
+  .menu-item {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #eee;
+    transition: color .5s;
+  }
+  
+  
+.dropdown-menu a{
+ color: #f1eded !important;
+}
+.dropdown-menu{
+  background-color: red;
+}
+
+
+.dropdown-menu a:hover{
+color:  #0f3449 !important;
+background-color: #e64d11;
+ -webkit-transition: all 0.2s ease-in-out;
+ -moz-transition: all 0.2s ease-in-out;
+ transition: all 0.2s ease-in-out; }
+
+
+
+      /* .dropdown .dropdown-menu {
+        color: #0f3449;
+        background-color: red;
+        text-align: center;
+       
+      } */
+   
+     
+  .menu-item:hover {
+    color: #0f3449;
+  }
+  
+  .nav-active {
+    color: #0f3449;
+  }
+  
+  .line1, .line2, .line3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .4s;
+  }
+  
+  .change .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .change .line2 {
+    opacity: 0;
+  }
+  
+  .change .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+
+  /* end of navbar */
+  
+  /* banner */
+  .banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    
+  }
+  
+  .banner-heading {
+    animation-name: anim;
+    animation-duration: 2s;
+  }
+  
+  .banner-par {
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes anim {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+

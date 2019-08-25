@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="CSS/Opportunities.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.0.slim.js"></script>
+<script src="JavaScript/ChangeSize.js"></script>
+<script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-latest.js">
+  </script> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title></title>
+  </head>
+<body>
+  <header>
+
+
+    <nav class="navbar navbar-expand-xl navbar-fixed-top nav-menu" >
+        <a href="#" class="navbar-brand text-light "><div class="border text-light">AKIKO FUSE</div></a>
+        <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
+          <div class="bg-light line1"></div>
+          <div class="bg-light line2"></div>
+          <div class="bg-light line3"></div>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold " id="myNavbar" >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link m-2 menu-item ">Home</a>
+            </li>
+            <li class="nav-item dropdown nav-item">
+              <a class="nav-link dropdown-toggle nav-link m-2 menu-item " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Teaching</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Course Taught</a>
+                <a class="dropdown-item" href="LabMember.html">Lab Member</a>
+              </div>
+            </li>
+
+
+            <li class="nav-item">
+              <a href="Resources.html" class="nav-link m-2 menu-item">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a href="Pubilcations.html" class="nav-link m-2 menu-item">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a href="Opportunities.html" class="nav-link m-2 menu-item nav-active">Opportunities</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item">Research</a>
+            </li>
+            <li class="nav-item">
+              <a href="Contact.html" class="nav-link m-2 menu-item">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+   
+      <div class="border1  ">
+            <div class=" h2 text-light">AKIKO FUSE</div>
+            </div>
+</header> 
+
+<section class="main-section">
+<div class="container-text" >
+    <input type="button" class="increase" value=" + ">
+    <input type="button" class="decrease" value=" - "/>
+    <input type="button" class="resetMe" value=" = ">
+    <!-- <div>Click Respected Buttons to Increase or Decrease the Font </div> -->
+<h2  class="display-4">Volunteer Opportunities</h2><HR class="hr1"><h3 id="textC" >Here you can become a part of the ever growing field<br> of
+    Speech and Pathology</h3>
+    <h1 class="display-4">Get Involved with my Research Project </h1>
+    <h3>  Find out about which areas of my research you interested </h3>
+    <h4>Recent research focuses on :</h4>
+ <ul class="list">
+       <li> Assessment and treatment of speech/language disorders among <br> individuals with culturally-linguistically diverse backgrounds.</li>
+       <li>Language/literacy development and academic achievement <br>in bilinguals and individuals with diverse backgrounds.</li>    
+       <li> Autism spectrum disorders and emotion recognition.</li>    
+       <li>  Relationship between thought and language.</li> 
+        </ul>
+    </div><hr class="hr1">
+    
+<div class="headJ"><h1 class="display-2">Join Now</h1></div>
+
+<form name="form" action="InsertOp.php"  method="POST">
+        <div class="form-group">
+          <label for="exampleInputEmail1">*Email:</label>
+          <input type="email" name="name" class="form-control"  aria-describedby="emailHelp" placeholder="Enter Your Email">
+          <small id="emailHelp" name="email" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">*Name:</label>
+          <input type="text" name="email" class="form-control" placeholder="Enter Name">
+         
+        </div>
+
+        <div class="form-group">
+                <label for="exampleInputGender1">*Gender:</label>
+                <input type="text" name="gender" class="form-control"  placeholder="Gender">
+               
+              </div>
+              <div class="form-group">
+                    <label for="exampleInputOccupations1">*Occupations:</label>
+                    <input type="text" name="occupations" class="form-control" placeholder="Occupations">
+                   
+                  </div>
+                  <div class="form-group">
+                        <label for="exampleFormControlTextarea1">*Interested Area:</label>
+                        <textarea name="InterestedArea" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+        <button type="submit"  name="submit" value="Submit" class="btn btn-primary">Submit</button>
+       
+      </form><HR class="hr1">
+<div class="head2"></div><h1 class="display-3">Speech Pathology Language Career</h1></div>
+<div class="row"> 
+     
+<div class="card card-3" style="width: 20rem;">
+     
+        <img class="card-img-top" src="CSS/img/logo1.jpeg" class="img-fluid"  alt="Speech">
+        <div class="card-body">
+          <h5 class="card-title">NSSLHA</h5>
+          <p class="card-text">Become a member of NSSLHA: National Students Speech-Language-Hearing Association</p>
+          <a href="#" class="btn btn-primary">LearnMore</a>
+        </div>
+    
+</div>
+        <div class="card card-3" style="width: 20rem;">
+                <img class="card-img-top" src="CSS/img/logo2.png" class="img-fluid" alt="BrooklynCollege">
+                <div class="card-body">
+                  <h5 class="card-title">Brooklyn College</h5>
+                  <p class="card-text">Communication Arts, Sciences, and Disorders graduate programs in 
+                        Brooklyn College.</p>
+                  <a href="#" class="btn btn-primary">LearnMore</a>
+                </div>
+              </div>
+              <div class="card card-3" style="width: 20rem;">
+     
+                <img class="card-img-top" src="CSS/img/logo1.jpeg" class="img-fluid"  alt="Speech">
+                <div class="card-body">
+                  <h5 class="card-title">NSSLHA</h5>
+                  <p class="card-text">Finding graduate programs</p>
+                  <a href="https://www.asha.org/edfind/" class="btn btn-primary">LearnMore</a>
+                </div>
+            
+          </div>
+    </div>
+
+    <div class="row-2"> 
+<div class="card card-3" style="width: 20rem;">
+     
+  <img class="card-img-top" src="CSS/img/logo1.jpeg" class="img-fluid"  alt="Speech">
+  <div class="card-body">
+    <h5 class="card-title">NSSLHA</h5>
+    <p class="card-text">About certification  </p>
+    <a href="https://www.asha.org/certification/" class="btn btn-primary">LearnMore</a>
+  </div>
+
+</div>
+<div class="card card-3" style="width: 20rem;">
+     
+  <img class="card-img-top" src="CSS/img/logo1.jpeg" class="img-fluid"  alt="Speech">
+  <div class="card-body">
+    <h5 class="card-title">NSSLHA</h5>
+    <p class="card-text">About clinical fellowship </p>
+    <a href="https://www.asha.org/certification/Clinical-Fellowship/" class="btn btn-primary">LearnMore</a>
+  </div>
+
+</div>
+</div>
+
+
+
+
+
+</section>
+</body>
+</html>
